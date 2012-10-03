@@ -1,0 +1,31 @@
+Mot cle & structure lobo :
+
+Structure d'une fonction
+	FONCTION nom	//indique le debut d'une fonction suivi du nom de la fonction
+	PARAMETRES p	//indique les parametres de la fonction (une fonction n'a pas obligatoirement de parametre : PARAMETRES )
+	DEBUT		//indique le debut d'une fonction
+		...		//
+		RETOUR 0	//les fonctions retournent toujours une valeur (enfin, je crois?)
+	FIN_FONCTION	//indique la fin d'une fonction
+
+appeler une fonction :
+	APPEL nom_fonction //appel la fonction nom_fonction	
+	
+Structure d'une Boucle :
+	REPETE n 	//indique une boucle de n
+	DEBUT		//
+		...	//
+	FIN_REPETE	//fin de la boucle
+	
+Declaration & affectation de variables:
+	DECLARE i;	//declaration d'une variable (on affecte une valeur apres declaration voir la ligne ci-dessous)
+	AFFECTE i n	//affecte n à i	(n peut etre une expression, en notation polonaise inverse, avec des opérateurs binaires)
+
+Afficher :
+	AFFICHE n;	//affiche n (n est soit un entier, soit un string)
+
+le main :
+	//le main n'est pas nommé
+	
+commentaire : #
+	
